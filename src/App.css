@@ -1,0 +1,103 @@
+/* @media only screen and (min-width: 600px) {
+    .App {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+} */
+
+.questionBodyContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(196, 193, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionBody {
+    background-color: azure;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.progressBarTop {
+    height: 5%;
+    background-color: green;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.category {
+    height: 30%;
+    display: flex;
+    margin: 0 40px;
+}
+
+.text-muted {
+    height: 100%;
+}
+
+.questionNumberAndTime {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.rating {
+    margin: 0 40px;
+}
+
+.question {
+    text-align: start;
+    margin: 0 40px;
+    height: 20%;
+}
+
+.optionsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20%;
+    margin: 0 40px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+.result {
+    min-height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    min-width: 45%;
+    max-width: 45%;
+}
+
+.btn.btn-dark {
+    min-width: 30%;
+}
+
+.nextQuestion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+}
